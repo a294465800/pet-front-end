@@ -255,6 +255,11 @@
         max-width: 1000px !important;
     }
 }
+@media (max-height: 740px) {
+    .main-index-third_page-bottom img {
+        max-width: 500px!important;
+    }
+}
 
 /*第四页*/
 .main-index-fourth_page-head {
@@ -403,8 +408,24 @@
     height: 263px;
 }
 
+
+/*底部logo*/
+.main-index-fifth_page-logo {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.main-index-fifth_page-logo-img {
+    width: 150px;
+    display: inline-block;
+    background-position: center center;
+}
+
 @media (max-height: 820px) {
-    .main-index-fifth_page-address {
+    .main-index-fifth_page-address-wrap{
         visibility: hidden;
     }
 }
@@ -530,18 +551,8 @@
     text-shadow: 2px 2px 1px #ccc;
 }
 
-/*底部logo*/
-.main-index-fifth_page-logo {
-    position: absolute;
-    width: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-}
-
-.main-index-fifth_page-logo-img {
-    width: 150px;
-    display: inline-block;
-    background-position: center center;
+@media (max-width: 900px) {
+    .main-index-fifth_page-footer-QR {
+        display: none;
+    }
 }
